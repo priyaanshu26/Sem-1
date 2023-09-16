@@ -4,5 +4,9 @@ void main()
     int n;
     printf("Enter value of n:");
     scanf("%d",&n);
-    (n%2==0)?(printf("n is even")):(printf("n is odd"));
+    if (n & 1 ) {
+        printf(" n is odd");
+    }else{
+        printf("n is even");
+    }
 }
